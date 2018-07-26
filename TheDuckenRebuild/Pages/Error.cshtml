@@ -1,0 +1,27 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<script src="~/js/analytics.js"></script>
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">An error occurred while processing your request.</h2>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>Request ID:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+
+<h3>Oopsie Doodle.</h3>
+<p>
+    Sorry about this we seem to have struck an error.
+    If this error persists, please send us an email using the link <strong><a href="mailto://jonathan.lake1@live.com">here.</a></strong>
+    Any emails received will not be used for marketing purposes and will be held for a maximum of 
+</p>
+@*<p>
+    <strong>Development environment should not be enabled in deployed applications</strong>, as it can result in sensitive information from exceptions being displayed to end users. For local debugging, development environment can be enabled by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>, and restarting the application.
+</p>*@
