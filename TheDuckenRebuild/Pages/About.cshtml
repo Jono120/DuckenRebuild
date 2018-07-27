@@ -6,9 +6,15 @@
 
 <script src="~/js/analytics.js"></script>
 
-<h2>@ViewData["Title"]</h2>
-<h3>@Model.Message</h3>
+@* Main logo box for the website. Scaled to the center of the screen. *@
+<div class="tw-display-container tw-animate-opacity">
+    <img src="~/images/Logo.png" alt="logo" style="width:100%;min-height:250px;max-height:500px;">
+    <div class="tw-container tw-display-bottomleft tw-margin-bottom">
+        <!--<button onclick="location.href ='Gallery.html'" .style.display='block' type="button" class="tw-button tw-xlarge tw-theme tw-hover-teal" title="Gallery">Gallery</button>-->
+    </div>
+</div>
 
+@* Team section that can be updated as needed. *@
 <div class="tw-container tw-padding-64 tw-center" id="team">
     <h2>OUR FRIENDLY TEAM</h2>
     <p>Meet the amazing wife and husband team - our hosts:</p>
@@ -16,19 +22,19 @@
     <div class="tw-row">
         <br>
         <div class="tw-third">
-            <img src="~/Images/Elke.png" alt="Owner Operator" style="width:50%" class="tw-circle tw-hover-opacity">
+            <img src="~/images/Elke.png" alt="Owner Operator" style="width:50%" class="tw-circle tw-hover-opacity">
             <h3>Elke Kuebler</h3>
             <p>Owner and Hostess</p>
         </div>
 
         <div class="tw-third">
-            <img src="~/Images/Stephen.png" alt="Operator" style="width:50%" class="tw-circle tw-hover-opacity">
+            <img src="~/images/Stephen.png" alt="Operator" style="width:50%" class="tw-circle tw-hover-opacity">
             <h3>Stephen Dykes</h3>
             <p>Host</p>
         </div>
 
         <div class="tw-third">
-            <img src="~/Images/Anthony.png" alt="Operator" style="width:50%" class="tw-circle tw-hover-opacity">
+            <img src="~/images/Anthony.png" alt="Operator" style="width:50%" class="tw-circle tw-hover-opacity">
             <h3>Anthony Dykes</h3>
             <p>Host</p>
         </div>
@@ -36,9 +42,9 @@
 </div>
 
 
-<!-- Short Blurb about us Row -->
+@* More information about them. *@
 <div class="tw-row-padding tw-padding-64 tw-theme-l1" id="work">
-    <div class="tw-half">
+    <div class="tw-twothird">
         <h2>About Us!</h2>
         <p>
             <h2>The Ducken Wellington</h2>
@@ -78,4 +84,33 @@
             <br />
         </p>
     </div>
+
+    @* Image slideshow. *@
+    <div class="tw-content tw-section tw-half centered">
+        <img class="mySlides tw-animate-fading" src="~/images/Slideshow/TheDuckRoom0.jpg" style="width:100%; height:auto; align-content:center">
+        <img class="mySlides tw-animate-fading" src="~/images/Slideshow/TheDuckRoom1.jpg" style="width:auto; height:500px; align-content:center">
+        <img class="mySlides tw-animate-fading" src="~/images/Slideshow/OceanRoom.jpg" style="width:100%; height:auto; align-content:center">
+        <img class="mySlides tw-animate-fading" src="~/images/Slideshow/OceanRoom1.jpg" style="width:auto; height:500px; align-content:center">
+        <img class="mySlides tw-animate-fading" src="~/images/Slideshow/Bathroom.jpg" style="width:auto; height:500px; align-content:center">
+        <img class="mySlides tw-animate-fading" src="~/images/Slideshow/Bathroom1.jpg" style="width:auto; height:500px; align-content:center">
+    </div>
 </div>
+
+<script>
+    //Image Carousel
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 9000);
+    }
+
+</script>
