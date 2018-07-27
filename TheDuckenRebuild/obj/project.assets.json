@@ -11512,11 +11512,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonat\\source\\repos\\TheDuckenRebuild\\TheDuckenRebuild\\TheDuckenRebuild.csproj",
+      "projectUniqueName": "C:\\Users\\jonat\\Source\\Repos\\DuckenRebuild\\TheDuckenRebuild\\TheDuckenRebuild.csproj",
       "projectName": "TheDuckenRebuild",
-      "projectPath": "C:\\Users\\jonat\\source\\repos\\TheDuckenRebuild\\TheDuckenRebuild\\TheDuckenRebuild.csproj",
+      "projectPath": "C:\\Users\\jonat\\Source\\Repos\\DuckenRebuild\\TheDuckenRebuild\\TheDuckenRebuild.csproj",
       "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonat\\source\\repos\\TheDuckenRebuild\\TheDuckenRebuild\\obj\\",
+      "outputPath": "C:\\Users\\jonat\\Source\\Repos\\DuckenRebuild\\TheDuckenRebuild\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
