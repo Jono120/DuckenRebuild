@@ -1,2 +1,2 @@
 # DuckenRebuild
-The Ducken BnB Rebuild website.
+The Ducken BnB Rebuild Repository.
