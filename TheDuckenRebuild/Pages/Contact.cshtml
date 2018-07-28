@@ -8,7 +8,7 @@
 
 @* Image Header *@
 <div class="tw-display-container tw-animate-opacity">
-    <img src="Images/Logo.jpg" alt="logo" style="width:100%;min-height:250px;max-height:500px;">
+    <img src="~/images/Logo.png" alt="logo" style="width:100%;min-height:250px;max-height:500px;">
     <div class="tw-container tw-display-bottomleft tw-margin-bottom">
         <!--<button onclick="location.href ='Gallery.html'" .style.display='block' type="button" class="tw-button tw-xlarge tw-theme tw-hover-teal" title="Gallery">Gallery</button>-->
     </div>
@@ -21,12 +21,40 @@
             <div class="tw-padding-16"><span class="tw-xlarge tw-border-teal tw-bottombar">Contact Us</span></div>
             <h3>Address</h3>
             <p>Gives an email for a booking or check us out on our social media pages!</p>
-            <p><i class="fa fa-map-marker tw-text-teal tw-xlarge"></i>  Check out the map below!</p>
-            <p><i class="fa fa-phone tw-text-teal tw-xlarge"></i>  +64 27 620 8991</p>
-            <p><i class="fa fa-envelope-o tw-text-teal tw-xlarge"></i>  <a href="mailto:theduckenbnb@gmail.com">Email me with any questions!</a></p>
+            <p><i class="fa fa-map-marker tw-text-teal tw-xlarge"></i> Want to know where we are? Check out the map below.</p>
+            <p><i class="fa fa-phone tw-text-teal tw-xlarge"></i> If you would like to talk on the phone call: +64 27 620 8991</p>
+            <p><i class="fa fa-envelope-o tw-text-teal tw-xlarge"></i><strong><a href="mailto:theduckenbnb@gmail.com"> If you have any questions you can email me.</a></strong></p>
         </div>
     </div>
 </div>
+
+@* Team section that can be updated as needed. *@
+<div class="tw-container tw-padding-64 tw-center" id="team">
+    <h2>Contact us from our social media.</h2>
+    @*<p>We have multiple platforms</p>*@
+
+    <div class="tw-row">
+        <br>
+        <div class="tw-third">
+            <a href="https://www.airbnb.co.nz/rooms/11974455"><img src="~/images/icons/ContactUS_AirBnB.png" alt="AirBnB" style="width:50%" class="tw-circle tw-hover-opacity"></a>
+            <h3>The Ducken Tawa, Wellington</h3>
+            <p>Our AirBnB Page</p>
+        </div>
+
+        <div class="tw-third">
+            <a href="https://www.facebook.com/theduckenwellington/"><img src="~/images/icons/ContactUS_FB.png" alt="Facebook" style="width:37%" class="tw-circle tw-hover-opacity"></a>
+            <h3>The Ducken Wellington</h3>
+            <p>Our Facebook Page</p>
+        </div>
+
+        <div class="tw-third">
+            <a href="https://www.instagram.com/theduckenwellington/?hl=en"><img src="~/images/icons/ContactUS_Instagram.png" alt="Instagram" style="width:37%" class="tw-circle tw-hover-opacity"></a>
+            <h3>The Ducken Wellington</h3>
+            <p>Our Instagram Page</p>
+        </div>
+    </div>
+</div>
+
 
 @* Google Maps *@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.98006620808!2d174.81965861542488!3d-41.178601979283876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38acdb95c060ed%3A0xf708b5cbdee1e7a5!2s52+Redwood+Ave%2C+Tawa%2C+Wellington+5028!5e0!3m2!1sen!2snz!4v1505645416492" width=100% height="420" frameborder="0" style="border:0" allowfullscreen></iframe>
