@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - TheDuckenRebuild</title>
+    <title>@ViewData["Title"] - The Ducken Wellington</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -26,11 +26,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-page="/Index" class="navbar-brand">The Ducken BnB Wellington</a>
+                <a asp-page="/Index" class="navbar-brand" style="background-color:teal;">The Ducken BnB Wellington</a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse"  style="color:white;">
                 <ul class="nav navbar-nav">
-                    <li><a asp-page="/Index">Home</a></li>
+                    <li style="color:white;"><a asp-page="/Index">Home</a></li>
                     <li><a asp-page="/About">About</a></li>
                     <li><a asp-page="/Contact">Contact</a></li>
                 </ul>
@@ -43,23 +43,13 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <h4>Follow Us</h4>
+        <footer style="background-color:black;">
+            <h4 style="color:white;">  Follow Us</h4>
             <a class="tw-button tw-medium tw-teal" href="https://www.facebook.com/theduckenwellington/" title="Facebook"><img src="~/images/icons/facebook_logo.png" width="24" height="20"></a>
             <a class="tw-button tw-medium tw-teal" href="https://www.instagram.com/theduckenwellington/?hl=en" title="Instagram"><img src="~/images/icons/instagram_logo.png" width="24" height="20"></a>
             <a class="tw-button tw-medium tw-teal" href="https://www.airbnb.co.nz/rooms/11974455" title="Airbnb"><img src="~/images/icons/airbnb_logo.png" width="24" height="20"></a>
-            <p>Powered by <a href="https://pages.github.com/" target="https://pages.github.com/">GitHub Pages</a></p>
-
-            <div style="position:relative;bottom:100px;z-index:1;" class="tw-tooltip tw-right">
-                <span class="tw-text tw-padding tw-teal tw-hide-small">Go To Top</span>
-                <a class="tw-button tw-theme" href="#myPage">
-                    <span class="tw-xlarge">
-                        <i class="fa fa-chevron-circle-up"></i>
-                    </span>
-                </a>
-            </div>
-
-            <p>&copy; @DateTime.Now.Year - The Ducken BnB Wellington</p>
+            <p style="color:white;">Powered by <a href="https://pages.github.com/" target="https://pages.github.com/">   GitHub Pages</a></p>
+            <p style="color:white;">    &copy; @DateTime.Now.Year - The Ducken BnB Wellington</p>
         </footer>
     </div>
 

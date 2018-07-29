@@ -14,22 +14,8 @@
     </div>
 </div>
 
-@* Contact container *@
-<div class="tw-container tw-padding-64 tw-theme-l5" id="contact">
-    <div class="tw-row">
-        <div class="tw-col m5">
-            <div class="tw-padding-16"><span class="tw-xlarge tw-border-teal tw-bottombar">Contact Us</span></div>
-            <h3>Address</h3>
-            <p>Gives an email for a booking or check us out on our social media pages!</p>
-            <p><i class="fa fa-map-marker tw-text-teal tw-xlarge"></i> Want to know where we are? Check out the map below.</p>
-            <p><i class="fa fa-phone tw-text-teal tw-xlarge"></i> If you would like to talk on the phone call: +64 27 620 8991</p>
-            <p><i class="fa fa-envelope-o tw-text-teal tw-xlarge"></i><strong><a href="mailto:theduckenbnb@gmail.com"> If you have any questions you can email me.</a></strong></p>
-        </div>
-    </div>
-</div>
-
-@* Team section that can be updated as needed. *@
-<div class="tw-container tw-padding-64 tw-center" id="team">
+@* Social Media section that can be updated as needed. *@
+<div class="tw-container tw-padding-64 tw-center" id="social">
     <h2>Contact us from our social media.</h2>
     @*<p>We have multiple platforms</p>*@
 
@@ -56,23 +42,40 @@
 </div>
 
 
+@* Contact container *@
+<div class="tw-container tw-padding-64 tw-theme-l5" id="contact"  style="background-color:lightgray">
+    <div class="tw-row">
+        <div class="tw-col m5">
+            <div class="tw-padding-16"><span class="tw-xlarge tw-border-teal tw-bottombar">Contact Us</span></div>
+            <h3>Address</h3>
+            <p>Gives an email for a booking or check us out on our social media pages.</p>
+            <p><i class="fa fa-map-marker tw-text-teal tw-xlarge"></i> Want to know where we are? Check out the map below.</p>
+            <p><i class="fa fa-phone tw-text-teal tw-xlarge"></i> If you would like to talk on the phone call: +64 27 620 8991</p>
+            <p><i class="fa fa-envelope-o tw-text-teal tw-xlarge"></i><strong><a href="mailto:theduckenbnb@gmail.com"> If you have any questions you can email me.</a></strong></p>
+        </div>
+    </div>
+</div>
+
+@*<div class="tw-col m7">
+        <form class="tw-container tw-card-4 tw-padding-16 tw-white" action="/action_page.php" target="_blank">
+            <div class="tw-section">
+                <label>Name</label>
+                <input class="tw-input" type="text" name="Name" required>
+            </div>
+            <div class="tw-section">
+                <label>Email</label>
+                <input class="tw-input" type="text" name="Email" required>
+            </div>
+            <div class="tw-section">
+                <label>Message</label>
+                <input class="tw-input" type="text" name="Message" required>
+            </div>
+            <input class="tw-check" type="checkbox" checked name="Like">
+            <label>I Like it!</label>
+            <button type="submit" class="tw-button tw-right tw-theme">Send</button>
+        </form>
+    </div>*@
+
+
 @* Google Maps *@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.98006620808!2d174.81965861542488!3d-41.178601979283876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38acdb95c060ed%3A0xf708b5cbdee1e7a5!2s52+Redwood+Ave%2C+Tawa%2C+Wellington+5028!5e0!3m2!1sen!2snz!4v1505645416492" width=100% height="420" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-
-
-
-@*<h2>@ViewData["Title"]</h2>
-    <h3>@Model.Message</h3>
-
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
-
-    <address>
-        <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>*@
