@@ -61,3 +61,4 @@ C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.dll
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.pdb
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.csproj.CopyComplete
+C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.csprojAssemblyReference.cache
