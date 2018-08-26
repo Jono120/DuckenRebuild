@@ -37,6 +37,7 @@ C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\bin\Debug\netcoreapp2
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\bin\Debug\netcoreapp2.1\TheDuckenRebuild.pdb
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\bin\Debug\netcoreapp2.1\TheDuckenRebuild.Views.dll
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\bin\Debug\netcoreapp2.1\TheDuckenRebuild.Views.pdb
+C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.csprojAssemblyReference.cache
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.csproj.CoreCompileInputs.cache
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.RazorAssemblyInfo.cache
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.RazorAssemblyInfo.cs
@@ -46,6 +47,7 @@ C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.TagHelpers.output.cache
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.RazorCoreGenerate.cache
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs
+C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\Razor\Pages\Blog.g.cshtml.cs
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
@@ -61,4 +63,3 @@ C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.dll
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.pdb
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.csproj.CopyComplete
-C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.csprojAssemblyReference.cache

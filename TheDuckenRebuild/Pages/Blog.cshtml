@@ -1,0 +1,48 @@
+﻿@page
+@model BlogModel
+@{
+    ViewData["Title"] = "Blog";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<script src="~/js/analytics.js"></script>
+
+<h2>Blog</h2>
+@* Facebook Feed Connection *@
+<div id="fb-root"></div>
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+@* Main logo box for the website. Scaled to the center of the screen. *@
+<div class="tw-display-container tw-animate-opacity">
+    <img src="~/images/Logo.png" alt="logo" style="width:100%;min-height:250px;max-height:500px;">
+    <div class="tw-container tw-display-bottomleft tw-margin-bottom">
+        <button onclick="location.href ='/Contact'" .style.display='block' type="button" class="tw-button tw-xlarge tw-teal tw-hover-border-white" title="Gallery">Book Now</button>
+    </div>
+</div>
+
+<br />
+
+<!--Facebook Timeline Feed Display-->
+<div style="width: 600px" class="centered">
+    <div class="fb-page"
+         data-href="https://www.facebook.com/theduckenwellington/"
+         data-tabs="timeline, messages"
+         data-small-header="true"
+         data-width="500"
+         data-height="1000"
+         data-hide-cover="true"
+         data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/theduckenwellington/" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/theduckenwellington/">The Ducken BnB Facebook</a>
+        </blockquote>
+    </div>
+</div>

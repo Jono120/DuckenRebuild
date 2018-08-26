@@ -90,7 +90,7 @@ using Microsoft.AspNetCore.Http.Features;
             WriteLiteral("we use and how you can control them.\r\n                </p>\r\n                <div class=\"navbar-right\">\r\n                    ");
             EndContext();
             BeginContext(1419, 69, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d7f00022b66c475ab6cb05bb32d3f566", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c3e954fbf3114d05bcfc077d96bcef18", async() => {
                 BeginContext(1474, 10, true);
                 WriteLiteral("Learn More");
                 EndContext();
