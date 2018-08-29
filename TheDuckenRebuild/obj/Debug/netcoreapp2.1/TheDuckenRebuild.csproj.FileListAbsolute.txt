@@ -41,7 +41,6 @@ C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.csproj.CoreCompileInputs.cache
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.RazorAssemblyInfo.cache
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.RazorAssemblyInfo.cs
-C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.AssemblyInfoInputs.cache
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.AssemblyInfo.cs
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.TagHelpers.input.cache
@@ -64,3 +63,5 @@ C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.dll
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.pdb
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\TheDuckenRebuild.csproj.CopyComplete
+C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Debug\netcoreapp2.1\Razor\Pages\Gallery.g.cshtml.cs
