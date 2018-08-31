@@ -32,3 +32,4 @@ C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Release\netcoreap
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Release\netcoreapp2.1\TheDuckenRebuild.pdb
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Release\netcoreapp2.1\TheDuckenRebuild.csproj.CopyComplete
 C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Release\netcoreapp2.1\TheDuckenRebuild.csprojAssemblyReference.cache
+C:\Users\jonat\Source\Repos\DuckenRebuild\TheDuckenRebuild\obj\Release\netcoreapp2.1\Razor\Pages\Gallery.g.cshtml.cs
