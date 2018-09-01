@@ -12218,23 +12218,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jonat\\.nuget\\packages\\": {},
-    "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\lakejo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonat\\Source\\Repos\\DuckenRebuild\\TheDuckenRebuild\\TheDuckenRebuild.csproj",
+      "projectUniqueName": "C:\\Users\\lakejo\\Source\\Repos\\DuckenRebuild\\TheDuckenRebuild\\TheDuckenRebuild.csproj",
       "projectName": "TheDuckenRebuild",
-      "projectPath": "C:\\Users\\jonat\\Source\\Repos\\DuckenRebuild\\TheDuckenRebuild\\TheDuckenRebuild.csproj",
-      "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonat\\Source\\Repos\\DuckenRebuild\\TheDuckenRebuild\\obj\\",
+      "projectPath": "C:\\Users\\lakejo\\Source\\Repos\\DuckenRebuild\\TheDuckenRebuild\\TheDuckenRebuild.csproj",
+      "packagesPath": "C:\\Users\\lakejo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lakejo\\Source\\Repos\\DuckenRebuild\\TheDuckenRebuild\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lakejo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12265,7 +12265,6 @@
             "autoReferenced": true
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
