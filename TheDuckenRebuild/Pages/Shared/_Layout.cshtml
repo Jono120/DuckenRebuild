@@ -33,7 +33,7 @@
                 </button>
                 <a asp-page="/Index" class="navbar-brand" style="background-color:teal; color:white;"><i class="fa fa-home"></i> The Ducken BnB Wellington</a>
             </div>
-            <div class="navbar-collapse collapse"  style="color:white;">
+            <div class="navbar-collapse collapse" style="color:white;">
                 <ul class="nav navbar-nav">
                     <li><a asp-page="/Index" style="color:white">Home</a></li>
                     <li><a asp-page="/About" style="color:white">About</a></li>
@@ -47,7 +47,7 @@
 
     <partial name="_CookieConsentPartial" />
 
-    <div class="container body-content">
+    <div class="container body-content tw-padding tw-panel">
         @RenderBody()
         <hr />
         <footer style="background-color:black;">
@@ -55,10 +55,9 @@
             <a class="tw-button tw-medium" style="background-color:black" href="https://www.facebook.com/theduckenwellington/" title="Facebook"><img src="~/images/icons/ContactUS_FB.png" width="25" height="25"></a>
             <a class="tw-button tw-medium" style="background-color:black" href="https://www.instagram.com/theduckenwellington/?hl=en" title="Instagram"><img src="~/images/icons/ContactUS_Instagram.png" width="25" height="25"></a>
             <a class="tw-button tw-medium" style="background-color:black" href="https://www.airbnb.co.nz/rooms/11974455" title="Airbnb"><img src="~/images/icons/airbnb_logo.png" width="25" height="25"></a>
-            @*<p style="color:white;">Powered by <a href="https://pages.github.com/" target="https://pages.github.com/">GitHub Pages</a></p>*@
-            <p style="color:white;">    &copy; @DateTime.Now.Year - The Ducken BnB Wellington</p>
-            <br />
+            <p style="color:white;">&copy; @DateTime.Now.Year - The Ducken B&B Wellington</p>
             @* Create links to the Cookies and Privacy pages *@
+            <a asp-page="/Privacy" style="color:white"><strong>Privacy Policy</strong></a>
         </footer>
     </div>
 

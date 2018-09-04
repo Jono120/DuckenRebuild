@@ -46,14 +46,14 @@
         <h2>About Us!</h2>
         <p>
             <h2>The Ducken Wellington</h2>
-            Is a comfortable family/farm style homestay.
-            Our house is centrally heated, which will keep you cozy on colder days and nights.
-            <em>Quality cooked breakfast included.</em>
+            We are a comfortable, family/farm homestay. Our central heating will keep you cosy during Wellington’s colder and gustier days and nights.
             <br />
-            There is a comfortable lounge/dining area for your own use with TV.
-            Netflix and Wi-fi is available.
-            We are only a few mins walk from the bus/railway station
-            We look forward to meeting you on your next visit to Wellington.
+            <em>Quality cooked breakfast is included.</em>
+            <br />
+            There is a comfortable lounge/dining area, including a TV, for your own use. Netflix and Wi-Fi are also available.
+            As mentioned, we are only a few minutes walk from the local bus and railway stations.
+            We look forward to meeting you on your next visit to Wellington, and making it as comfortable as possible.
+
 
             <h3>The space</h3>
 
@@ -81,17 +81,58 @@
     </div>
 
     @* Image slideshow. *@
-    <div class="tw-content tw-section tw-half" style="align-content:center">
+    @*<div class="tw-content tw-section tw-half" style="align-content:center">
         <img class="mySlides tw-animate-fading" src="~/images/Slideshow/TheDuckRoom0.jpg" style="width:auto; height:500px; align-content:center">
         <img class="mySlides tw-animate-fading" src="~/images/Slideshow/TheDuckRoom1.jpg" style="width:auto; height:500px; align-content:center">
         <img class="mySlides tw-animate-fading" src="~/images/Slideshow/OceanRoom.jpg" style="width:auto; height:500px; align-content:center">
         <img class="mySlides tw-animate-fading" src="~/images/Slideshow/OceanRoom1.jpg" style="width:auto; height:500px; align-content:center">
         <img class="mySlides tw-animate-fading" src="~/images/Slideshow/Bathroom.jpg" style="width:auto; height:500px; align-content:center">
         <img class="mySlides tw-animate-fading" src="~/images/Slideshow/Bathroom1.jpg" style="width:auto; height:500px; align-content:center">
-    </div>
+    </div>*@
 </div>
 
-
+@* Image slideshow highlighting objects *@
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    @*<ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>*@
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/Slideshow/TheDuckRoom0.jpg" alt="Dogs" class="img-responsive" style="width:100%; height:760px" />
+            @*<div class="tw-display-bottommiddle tw-container tw-padding tw-white carousel-caption" role="option">
+                <p style="text-align:left"><strong>There are two lovely dogs on the property; on the left, Oscar, and on the right, Jasper.</strong></p>
+            </div>*@
+        </div>
+        <div class="item">
+            <img src="~/images/Slideshow/TheDuckRoom.jpg" alt="Frogs" class="img-responsive" style="width:100%; height:760px" />
+            @*<div class="tw-display-bottommiddle tw-container tw-padding tw-white carousel-caption" role="option">
+                <p style="text-align:left"><strong>Some new additions to our animals – frogs!</strong></p>
+            </div>*@
+        </div>
+        <div class="item">
+            <img src="~/images/Slideshow/OceanRoom.jpg" alt="Entry" class="img-responsive" style="width:100%; height:760px" />
+            @*<div class="tw-display-bottommiddle tw-container tw-padding tw-white carousel-caption" role="option">
+                <p style="text-align:left"><strong>An inviting front entrance, adorned with flowers and beauty all year long.</strong></p>
+            </div>*@
+        </div>
+        <div class="item">
+            <img src="~/images/Slideshow/PrivateLounge.jpg" alt="Entry" class="img-responsive" style="width:100%; height:760px" />
+            @*<div class="tw-display-bottommiddle tw-container tw-padding tw-white carousel-caption" role="option">
+                <p style="text-align:left"><strong>An inviting front entrance, adorned with flowers and beauty all year long.</strong></p>
+            </div>*@
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
 
 
