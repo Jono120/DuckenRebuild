@@ -76,7 +76,7 @@ using TheDuckenRebuild;
             WriteLiteral("<div class=\"tw-display-container tw-animate-opacity\">\r\n    ");
             EndContext();
             BeginContext(688, 94, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b114b74a94334393ad4138ce96582870", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e166de2dd07440ac9d7c1d5e04e67c14", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

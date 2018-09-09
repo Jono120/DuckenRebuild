@@ -69,7 +69,7 @@ using TheDuckenRebuild;
             WriteLiteral("<div class=\"tw-display-container tw-animate-opacity\">\r\n    ");
             EndContext();
             BeginContext(206, 94, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "377236cb597a4d13add24139f2ec8286", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a36863fd51274456b0b7f08891c119e1", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -100,7 +100,7 @@ using TheDuckenRebuild;
             WriteLiteral("\r\n    <div class=\"tw-row\">\r\n        <br>\r\n        <div class=\"tw-third\">\r\n            <a href=\"https://www.airbnb.co.nz/rooms/11974455\">");
             EndContext();
             BeginContext(966, 113, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "bf5d23bf1d4e4e2b9a6e1bb6408d8367", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "6882a4834ba7420cb9971460ee0cf21f", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -121,7 +121,7 @@ using TheDuckenRebuild;
             WriteLiteral("</a>\r\n            <h3>The Ducken Tawa, Wellington</h3>\r\n            <p>Our AirBnB Page</p>\r\n        </div>\r\n\r\n        <div class=\"tw-third\">\r\n            <a href=\"https://www.facebook.com/theduckenwellington/\">");
             EndContext();
             BeginContext(1289, 111, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c397b5b47e5a4bac90337dc1115f4fb5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ee15d37cb8244f3f890480b345f8279a", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -142,7 +142,7 @@ using TheDuckenRebuild;
             WriteLiteral("</a>\r\n            <h3>The Ducken Wellington</h3>\r\n            <p>Our Facebook Page</p>\r\n        </div>\r\n\r\n        <div class=\"tw-third\">\r\n            <a href=\"https://www.instagram.com/theduckenwellington/?hl=en\">");
             EndContext();
             BeginContext(1613, 119, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "460c253354564a7b9910116a8e471cd3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c9849e6771b2479482f61977b62fcaf2", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
