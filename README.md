@@ -5,7 +5,7 @@ This is the repository for the new Ducken Website using the .NET Core framework,
 
 The privacy policy is very basic that has very basic informtion about what the site, and it's connections.
 
-Current website is: http://theduckenwellington.co.nz/
+Current website is: http://www.theduckenwellington.co.nz/
 With the new website: https://theduckenwellington.azurewebsites.net/
 
 This is going to be the replacement for the current website.
